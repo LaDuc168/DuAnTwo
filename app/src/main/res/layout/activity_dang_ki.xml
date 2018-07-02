@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.app_pro.duantwo.activity.DangKi">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="ĐĂNG KÍ TÀI KHOẢN"
+            android:textColor="#0d3ce9"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtDKTenTaiKhoan"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/custom_edittext"
+            android:hint="Nhập vào tên tài khoản" />
+
+        <EditText
+            android:id="@+id/edtDKPassTaiKhoan"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/custom_edittext"
+            android:hint="Nhập vào mật khẩu tài khoản"
+            android:inputType="textPassword" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:weightSum="2">
+
+            <ru.katso.livebutton.LiveButton
+                android:id="@+id/btnDangKi"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:text="Đăng kí"
+                android:textColor="#241cff"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                app:backgroundColor="#17da14"
+                app:corners="0sp"
+                app:normalHeight="5dp"
+                app:pressedHeight="2dp"
+                app:shadowColor="#3c57d9" />
+
+            <ru.katso.livebutton.LiveButton
+                android:id="@+id/btnHuyDangKi"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:text="Hủy"
+                android:textColor="#241cff"
+                android:textSize="35dp"
+                android:textStyle="bold"
+                app:backgroundColor="#17da14"
+                app:corners="0sp"
+                app:normalHeight="5dp"
+                app:pressedHeight="2dp"
+                app:shadowColor="#3c57d9" />
+
+        </LinearLayout>
+</LinearLayout>

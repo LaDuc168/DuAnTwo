@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:weightSum="10"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+       <ImageView
+           android:src="@drawable/baocaonhap"
+           android:layout_weight="2"
+           android:layout_width="0dp"
+           android:layout_height="match_parent" />
+        <ru.katso.livebutton.LiveButton
+            android:id="@+id/btnBaoCaoNhap"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="8"
+            android:text="BÁO CÁO NHẬP"
+            android:textColor="#ff2b1c"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:padding="5dp"
+            app:backgroundColor="#17da14"
+            app:corners="0sp"
+            app:normalHeight="5dp"
+            app:pressedHeight="2dp"
+            app:shadowColor="#afaaa9" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:weightSum="10"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:src="@drawable/baocaoxuat"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <ru.katso.livebutton.LiveButton
+            android:id="@+id/btnBaoCaoXuat"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="8"
+            android:text="BÁO CÁO XUẤT"
+            android:textColor="#090df5"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:padding="5dp"
+            app:backgroundColor="#17da14"
+            app:corners="0sp"
+            app:normalHeight="5dp"
+            app:pressedHeight="2dp"
+            app:shadowColor="#afaaa9" />
+
+    </LinearLayout>
+
+</LinearLayout>

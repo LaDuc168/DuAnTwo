@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:weightSum="16"
+    android:padding="10dp"
+    android:layout_height="180dp">
+    <LinearLayout
+        android:layout_marginLeft="5dp"
+
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="13"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtfragmenthdmahoadon"
+            android:layout_width="match_parent"
+            android:textSize="@dimen/size_chu"
+            android:textColor="#173ae9"
+            android:textStyle="bold"
+            android:text="ten hang"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:background="#e7e8e9"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+        <TextView
+            android:id="@+id/txtfragmenthdmahang"
+            android:layout_width="match_parent"
+            android:textSize="@dimen/size_chu"
+            android:textColor="#173ae9"
+            android:text="ten hang"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:background="#e7e8e9"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+        <TextView
+            android:id="@+id/txtfragmenthdngay"
+            android:layout_width="match_parent"
+            android:textSize="@dimen/size_chu"
+            android:textColor="#173ae9"
+            android:text="ten hang"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:background="#e7e8e9"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+        <TextView
+            android:id="@+id/txtfragmenthdsoluong"
+            android:layout_width="match_parent"
+            android:textSize="@dimen/size_chu"
+            android:textColor="#173ae9"
+            android:text="ten hang"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:background="#e7e8e9"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+        <TextView
+            android:id="@+id/txtfragmentHDBGhiChu"
+            android:layout_width="match_parent"
+            android:textSize="@dimen/size_chu"
+            android:textColor="#f42f25"
+            android:textStyle="italic"
+            android:text="ten hang"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="8">
+
+        <Button
+            android:id="@+id/btnXuatSua"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="2"
+            android:background="@drawable/custom_edittext"
+            android:textColor="#f41606"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Sửa" />
+
+        <Button
+            android:id="@+id/btnXuatXoa"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="18dp"
+            android:layout_weight="2"
+            android:background="@drawable/custom_edittext"
+            android:text="Xóa"
+            android:gravity="center"
+            android:textColor="#f41606"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:background="@drawable/hinhnen"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Quản Lý Kho - Vương 005"
+            android:textColor="#f70e29"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtusername"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_edittext"
+            android:drawableLeft="@drawable/nguoichinh"
+            android:drawablePadding="10dp"
+            android:hint="Nhập username" />
+
+        <EditText
+            android:id="@+id/edtpass"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_edittext"
+            android:drawableLeft="@drawable/khoachinh"
+            android:drawablePadding="10dp"
+            android:hint="Nhập password"
+            android:inputType="textPassword" />
+
+        <CheckBox
+            android:id="@+id/check"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Ghi nhớ mật khẩu"
+            android:textColor="#ff190d"
+            android:textSize="22sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:weightSum="2">
+
+            <ru.katso.livebutton.LiveButton
+                android:id="@+id/btnDangNhap"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:text="Đăng nhập"
+                android:textColor="#ff190d"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                app:backgroundColor="#17da14"
+                app:corners="0sp"
+                app:normalHeight="5dp"
+                app:pressedHeight="2dp"
+                app:shadowColor="#b7bac9" />
+
+            <ru.katso.livebutton.LiveButton
+                android:id="@+id/btnHuy"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:text="Hủy"
+                android:textColor="#ff190d"
+                android:textSize="35dp"
+                android:textStyle="bold"
+                app:backgroundColor="#17da14"
+                app:corners="0sp"
+                app:normalHeight="5dp"
+                app:pressedHeight="2dp"
+                app:shadowColor="#b7bac9" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--Drawable Layout-->
+
+    <LinearLayout
+        android:id="@+id/linearLeft"
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:background="#f9f8ef"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/backup_restore" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="#d9d4d4" />
+
+        <br.com.bloder.magic.view.MagicButton
+            android:id="@+id/btnBackup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            app:button_icon="@drawable/backup_ok"
+            app:button_icon_height="30dp"
+            app:button_icon_width="30dp"
+            app:expandable_area_color="#f73b26"
+            app:hide_text="Backup dữ liệu"
+            app:hide_text_color="#fffefe"
+            app:hide_text_size="5dp"
+            app:icon_button_color="#fac3c0"
+            app:magic_button_size="50dp" />
+
+
+        <br.com.bloder.magic.view.MagicButton
+            android:id="@+id/btnRestore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            app:button_icon="@drawable/restore"
+            app:button_icon_height="30dp"
+            app:button_icon_width="30dp"
+            app:expandable_area_color="#376df4"
+            app:hide_text="Restore dữ liệu"
+            app:hide_text_color="#fffefe"
+            app:hide_text_size="5dp"
+            app:icon_button_color="#e3e5f9"
+            app:magic_button_size="50dp" />
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.DrawerLayout>
+
+
+
+

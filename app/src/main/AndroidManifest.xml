@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.app_pro.duantwo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name=".QuanLyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NhapActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AddHoaDonNhapActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AddHoaDonXuatActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BaoCaoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HienThiChiTietHangHoaNhapActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.HoaDonBanFragmentDemo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SuaHangHoaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SuaHoaDonNhapActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SuaHoaDonXuatActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".baocao.BaoCaoNhap"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".baocao.BaoCaoXuat"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.DangKi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.DoiMatKhau"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modelbaocao.AddHoaDonNhap_TwoActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".baocao.NotificationHangTon" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+    </application>
+
+</manifest>

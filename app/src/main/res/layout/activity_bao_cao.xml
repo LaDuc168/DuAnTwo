@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/backgroundep"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+android:layout_margin="10dp"
+    tools:context="com.example.app_pro.duantwo.BaoCaoActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="BÁO CÁO TỒN KHO"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#0d3ce9"
+        android:gravity="center"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:weightSum="10"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <EditText
+            android:background="@drawable/custom_edittext"
+            android:layout_weight="6"
+            android:layout_width="0dp"
+            android:id="@+id/edtNgayBaoCao"
+            android:hint="Click ngày-tháng-năm"
+            android:layout_height="40dp" />
+        <ru.katso.livebutton.LiveButton
+
+            android:id="@+id/btnThongKe"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="4"
+            android:text="Thống kê"
+            android:textColor="#241cff"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:backgroundColor="#17da14"
+            app:corners="0sp"
+            app:normalHeight="5dp"
+            app:pressedHeight="2dp"
+            app:shadowColor="#3c57d9" />
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/txtThongBaoChung"
+            android:text="Chưa có thông tin"
+            android:layout_centerInParent="true"
+            android:textSize="30sp"
+            android:textColor="#f9061b"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_height="wrap_content" />
+        <ListView
+            android:divider="#cbf9c3"
+            android:dividerHeight="1dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+    </RelativeLayout>
+
+</LinearLayout>

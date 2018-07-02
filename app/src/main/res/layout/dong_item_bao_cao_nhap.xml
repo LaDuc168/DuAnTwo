@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:layout_marginLeft="5dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:padding="2dp"
+        android:id="@+id/txtBCNTen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ten hang"
+        android:textColor="#5d8bf9"
+        android:textSize="@dimen/size_chu"
+        android:textStyle="bold" />
+    <TextView
+        android:background="#e7e8e9"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+    <TextView
+        android:padding="2dp"
+
+        android:id="@+id/txtBCNNgay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ten hang"
+        android:textColor="#5d8bf9"
+        android:textSize="@dimen/size_chu"
+         />
+    <TextView
+        android:background="#e7e8e9"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+    <TextView
+        android:padding="2dp"
+
+        android:id="@+id/txtBCNSL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ten hang"
+        android:textColor="#5d8bf9"
+        android:textSize="@dimen/size_chu"
+         />
+<TextView
+    android:background="#e7e8e9"
+    android:layout_width="match_parent"
+    android:layout_height="1dp" />
+    <TextView
+        android:padding="2dp"
+
+        android:id="@+id/txtBCNGhiChu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ten hang"
+        android:textColor="#ff4d41"
+        android:textSize="@dimen/size_chu"
+        android:textStyle="italic" />
+</LinearLayout>

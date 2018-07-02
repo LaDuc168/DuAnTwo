@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:id="@+id/thongbao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="
+"
+            android:textColor="#f72b14"
+            android:textSize="22sp" />
+    </ScrollView>
+
+    <ru.katso.livebutton.LiveButton
+        android:id="@+id/btnCancel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:text="Cancel"
+        android:textColor="#ff2f1c"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:backgroundColor="#17da14"
+        app:corners="0sp"
+        app:normalHeight="5dp"
+        app:pressedHeight="2dp"
+        app:shadowColor="#3c57d9" />
+</LinearLayout>

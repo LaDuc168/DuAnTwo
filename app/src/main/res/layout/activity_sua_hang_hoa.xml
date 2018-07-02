@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="10dp"
+    tools:context="com.example.app_pro.duantwo.activity.SuaHangHoaActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:text="SỬA THÔNG TIN HÀNG HÓA"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#0d3ce9"
+        android:gravity="center"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_marginTop="5dp"
+        android:background="@drawable/custom_edittext"
+        android:layout_width="match_parent"
+        android:id="@+id/edtHHMa"
+        android:layout_height="@dimen/kichthuoc" />
+    <EditText
+        android:layout_marginTop="5dp"
+        android:background="@drawable/custom_edittext"
+        android:hint="Nhập vào tên hàng"
+        android:layout_width="match_parent"
+        android:id="@+id/edtHHTen"
+        android:layout_height="@dimen/kichthuoc" />
+    <EditText
+        android:layout_marginTop="5dp"
+        android:background="@drawable/custom_edittext"
+        android:hint="Nhập vào ghi chú"
+        android:layout_width="match_parent"
+        android:id="@+id/edtHHGhiChu"
+        android:layout_height="@dimen/kichthuoc" />
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:weightSum="2">
+
+        <ru.katso.livebutton.LiveButton
+            android:id="@+id/btnCapNhatHH"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="Cập nhật"
+            android:textColor="#241cff"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:backgroundColor="#17da14"
+            app:corners="0sp"
+            app:normalHeight="5dp"
+            app:pressedHeight="2dp"
+            app:shadowColor="#3c57d9" />
+
+        <ru.katso.livebutton.LiveButton
+            android:id="@+id/btnHuyHH"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="Hủy"
+            android:textColor="#241cff"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            app:backgroundColor="#17da14"
+            app:corners="0sp"
+            app:normalHeight="5dp"
+            app:pressedHeight="2dp"
+            app:shadowColor="#3c57d9" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "837755431864",
+    "firebase_url": "https://quanlykhohangvuongit.firebaseio.com",
+    "project_id": "quanlykhohangvuongit",
+    "storage_bucket": "quanlykhohangvuongit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:837755431864:android:2c7b0e42d344643e",
+        "android_client_info": {
+          "package_name": "com.example.app_pro.duantwo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "837755431864-jg0p793ei9doij1oakriuf1tg7n1016m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAr1e_o283hThoB6DT9Rg9G39As5GVc7Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
